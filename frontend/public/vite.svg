@@ -1,11 +1,26 @@
 <?xml version="1.0" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 100">
-  <!-- Background for context (optional) -->
-  <rect width="300" height="100" fill="#f9fbfe" />
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
 
-  <!-- Text for the title "BuyMe" -->
-  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Arial" font-size="100"height="100" fill="#2988cc" font-weight="normal">
-    BuyMe
+ 
+
+  <!-- Top Shape -->
+  <path fill="#b429cc" d="M279 0L279 1C303.8 1.3 330.2 9.2 353 18.5C362.3 22.3 375.1 32.8 385 33.3C392.4 33.7 402.9 20.3 410 17C434.4 5.7 463.8 10.9 482.6 30.2C501.2 49.3 506.1 77.9 495 102C491.7 109.1 478.3 119.6 478.7 127.1C479.2 137.1 490 150.5 493.8 160C502.9 182.8 510.4 208.3 511 233L512 233V0H279z"/>
+
+  <!-- Bottom Shape (Mirroring the Top Shape to the Bottom Right) -->
+  <path fill="#b50bd4" transform="scale(1, -1) translate(0, -512)" d="M279 0L279 1C303.8 1.3 330.2 9.2 353 18.5C362.3 22.3 375.1 32.8 385 33.3C392.4 33.7 402.9 20.3 410 17C434.4 5.7 463.8 10.9 482.6 30.2C501.2 49.3 506.1 77.9 495 102C491.7 109.1 478.3 119.6 478.7 127.1C479.2 137.1 490 150.5 493.8 160C502.9 182.8 510.4 208.3 511 233L512 233V0H279z"/>
+
+  <!-- Bottom Shape (Mirroring the Top Shape to the Bottom Left) -->
+  <path fill="#2988cc" transform="scale(-1, -1) translate(-512, -512)" d="M279 0L279 1C303.8 1.3 330.2 9.2 353 18.5C362.3 22.3 375.1 32.8 385 33.3C392.4 33.7 402.9 20.3 410 17C434.4 5.7 463.8 10.9 482.6 30.2C501.2 49.3 506.1 77.9 495 102C491.7 109.1 478.3 119.6 478.7 127.1C479.2 137.1 490 150.5 493.8 160C502.9 182.8 510.4 208.3 511 233L512 233V0H279z"/>
+
+  <!-- Original Top Shape -->
+  <path fill="#11d628" d="M279 0L279 1C303.8 1.3 330.2 9.2 353 18.5C362.3 22.3 375.1 32.8 385 33.3C392.4 33.7 402.9 20.3 410 17C434.4 5.7 463.8 10.9 482.6 30.2C501.2 49.3 506.1 77.9 495 102C491.7 109.1 478.3 119.6 478.7 127.1C479.2 137.1 490 150.5 493.8 160C502.9 182.8 510.4 208.3 511 233L512 233V0H279z"/>
+
+  <!-- Mirrored Left Side Top Shape -->
+  <path fill="#d46f0b" transform="scale(-1, 1) translate(-512, 0)" d="M279 0L279 1C303.8 1.3 330.2 9.2 353 18.5C362.3 22.3 375.1 32.8 385 33.3C392.4 33.7 402.9 20.3 410 17C434.4 5.7 463.8 10.9 482.6 30.2C501.2 49.3 506.1 77.9 495 102C491.7 109.1 478.3 119.6 478.7 127.1C479.2 137.1 490 150.5 493.8 160C502.9 182.8 510.4 208.3 511 233L512 233V0H279z"/>
+
+  <!-- Centered Text: B -->
+  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle" font-family="italic" font-size="400" fill="#1166d6" font-weight="normal">
+    B
   </text>
+
 </svg>
