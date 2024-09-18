@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <section>
+        <section className='p-4 bg-pink-300 '>
           <Navbar />
         </section>
       </div>
