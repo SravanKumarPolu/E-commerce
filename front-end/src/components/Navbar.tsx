@@ -3,9 +3,10 @@ import buyme from '/src/assets/svges/BuyMe.svg'; // Vite uses this relative impo
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Collection from '../pages/Collection';
-import Cart from '../pages/cart';
+
 import Search from '../pages/Search';
 import user from '/src/assets/svges/User.svg';
+import Cart from '../pages/Cart';
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between p-4 ">
