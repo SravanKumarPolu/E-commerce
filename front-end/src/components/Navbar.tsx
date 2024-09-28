@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import logo from "../assets/images/logo.png"
+
 import SearchIcon from "../assets/svges/Search.svg"
 import ProfileIcon from "../assets/svges/User.svg"
 import CartIcon from "../assets/images/cart_icon.png"
