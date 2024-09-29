@@ -21,12 +21,24 @@ const ProductItems: React.FC<ProductItemsProps> = ({ id, image, name, price }) =
   const { currency } = context;
 
   return (
-    <Link to={`/product/${id}`} className='text-gray-700 cursor-pointer'>
-      <div>
-        <img className='hover:scale-110 w-[200px] transition ease-in-out' src={image[0]} alt={name} />
+    <Link to={`/product/${id}`} className="flex flex-col  justify-center align-middle group text-gray-700 cursor-pointer">
+      {/* Image Wrapper */}
+      <div className="flex justify-center">
+        <img
+          className="hover:scale-110 transition-transform duration-300 ease-in-out w-[200px] h-[200px] object-cover rounded-lg"
+          src={image[0]}
+          alt={name}
+        />
       </div>
-      <p className='pt-3 pb-1 text-sm '>{name}</p>
-      <p className='text-sm font-medium'>{currency}{price}</p>
+
+      {/* Product Info */}
+      <div className="flex flex-col justify-items-center mt-3">
+        <p className="text-sm font-medium text-left">{name}</p>
+
+        <p className="text-sm font-semibold text-gray-900 text-left">
+          <span className='text-gray-500'>{currency}</span> {price.toFixed(2)}
+        </p>
+      </div>
     </Link>
   );
 };
