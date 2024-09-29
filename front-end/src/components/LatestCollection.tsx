@@ -40,7 +40,7 @@ const LatestCollection: React.FC = () => {
   return (
     <div className='my-10'>
       <div className='text-center py-8 text-3xl'>
-        <Title text1="Latest" text2="Collection" />
+        <Title text1="Latest" text2="Collections" />
 
         <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus suscipit adipisci, atque repellat minima vitae ipsam? Nihil voluptas molestiae vel vitae hic culpa quaerat odio!
