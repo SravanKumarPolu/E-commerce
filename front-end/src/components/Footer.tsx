@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
       {/* Footer Bottom */}
       <div className="border-t border-gray-300 py-5">
         <p className='text-sm text-center text-gray-600'>
-          &copy; 2024 ForeverYou - All Rights Reserved
+          &copy; 2024 BuyMe - All Rights Reserved
         </p>
       </div>
     </div>

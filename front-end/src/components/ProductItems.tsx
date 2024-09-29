@@ -33,9 +33,9 @@ const ProductItems: React.FC<ProductItemsProps> = ({ id, image, name, price }) =
 
       {/* Product Info */}
       <div className="flex flex-col justify-items-center mt-3">
-        <p className="text-sm font-medium text-left">{name}</p>
+        <p className="text-sm font-medium ">{name}</p>
 
-        <p className="text-sm font-semibold text-gray-900 text-left">
+        <p className="text-sm font-semibold text-gray-900 ">
           <span className='text-gray-500'>{currency}</span> {price.toFixed(2)}
         </p>
       </div>
