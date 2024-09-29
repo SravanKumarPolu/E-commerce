@@ -1,6 +1,6 @@
 
 import p_img1 from './p_img1.png'
-import p_img2 from './p_img2_1.png'
+import p_img2 from './p_img2.png'
 
 import p_img3 from './p_img3.png'
 import p_img4 from './p_img4.png'
@@ -50,10 +50,10 @@ export const products: Product[] = [
   {
       _id: "aaaaa",
       name: "iPhone XR",
-      description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      description: "iPhone XR features the most advanced LCD in a smartphone - a 6.1-inch Liquid Retina display with industry-leading color accuracy. Available in six stunning colors. Advanced Face ID lets you securely unlock your iPhone, log in to apps, and pay with just a glance",
       price: 300,
       image: [p_img1],
-      category: "Women",
+      category: "Phone",
       subCategory: "Topwear",
       color: ["Black", "White", "Pink"],
       date: 1716634345448,
@@ -61,11 +61,11 @@ export const products: Product[] = [
   },
   {
       _id: "aaaab",
-      name: "Buy MacBook Air",
+      name: " MacBook Air",
       description: "16-core Neural Engine13.6-inch Liquid Retina display with True Tone²1080p FaceTime HD cameraMagSafe 3 charging portTwo Thunderbolt / USB 4 portsSupport for up to two external displays (with laptop lid closed)",
       price: 800,
-      image: [p_img2,],
-      category: "Men",
+      image: [p_img2],
+      category: "LapTop",
       subCategory: "Topwear",
       color: ["Black", "White", "Pink"],
       date: 1716621345448,
@@ -77,7 +77,7 @@ export const products: Product[] = [
       description: "TineeOwl Mocha iPad Pro 12.9 case 2020 & 2018 (4th & 3rd Generation) Ultra-Slim Clear Case with Pencil Holder + Tri-fold Stand Cover, Absorbs Shock, Lightweight (Pink)",
       price: 520,
       image: [p_img3],
-      category: "Kids",
+      category: "iPad",
       subCategory: "Topwear",
       color: ["Black", "White", "Pink"],
       date: 1716234545448,
@@ -89,7 +89,7 @@ export const products: Product[] = [
       description: "iPad Pro 11 (2020, Gen 2) Skins The NEW iPad Pro 11 (2020, Gen 2) has taken tablets to a whole new level, packing more power than most PC laptops ",
       price: 610,
       image: [p_img4],
-      category: "Men",
+      category: "iPd",
       subCategory: "Topwear",
       color: ["Black", "White", "Pink"],
       date: 1716621345448,
@@ -98,7 +98,7 @@ export const products: Product[] = [
   {
     _id: "aaaae",
     name: "iPhone 15Pro",
-    description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    description: "iPhone 15 Pro Max. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever. Color: White",
     price: 450,
     image: [p_img5],
     category: "Men",
@@ -121,7 +121,7 @@ export const products: Product[] = [
 },
 {
   _id: "aaaag",
-  name: "Apple Macbook Retina Display Laptop ",
+  name: "Apple Macbook ",
   description: "Apple Macbook Retina Display Laptop (12 Inch Full-HD LED Backlit IPS Display, Intel Core M-5Y31 1.1GHz up to 2.4GHz, 8GB RAM, 256GB SSD, Wi-Fi, Bluetooth 4.0) Gold (Renewed)",
   price: 190,
   image: [p_img7],
@@ -134,7 +134,7 @@ export const products: Product[] = [
 {
   _id: "aaaah",
   name: "iPhone 15",
-  description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+  description: "iPhone 15. Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever",
   price: 140,
   image: [p_img8],
   category: "Men",
@@ -145,9 +145,9 @@ export const products: Product[] = [
 },
 {
   _id: "aaaai",
-  name: "iPhone Xs",
-  description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-  price: 100,
+  name: "iPhone XS",
+  description: "Get the best deals on phones from Apple, Samsung, LG & more when you shop eBay. Browse top brands - Affordable prices",
+  price: 200,
   image: [p_img9],
   category: "Kids",
   subCategory: "Topwear",
@@ -171,7 +171,7 @@ export const products: Product[] = [
   _id: "aaaak",
   name: "iPhone 11",
   description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-  price: 120,
+  price: 320,
   image: [p_img11],
   category: "Men",
   subCategory: "Topwear",
