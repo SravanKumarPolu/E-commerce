@@ -1,4 +1,4 @@
-import React from 'react'
+
 import search from "/src/assets/svges/Search.svg"
 const Search = () => {
   return (

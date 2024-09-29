@@ -15,8 +15,9 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import Product from './pages/Product'
 import Order from './pages/Order'
-import NavBar from './components/Navbar'
+
 import PlaceOrder from './pages/PlaceOrder'
+import NavBar from './components/NavBar'
 
 
 function App() {
